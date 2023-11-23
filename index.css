@@ -1,9 +1,30 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     width: 95%;
 }
 
 .logo {
     display: flex;
     border: 1px solid black;
+    padding: 5px 5px;
+    margin: auto;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 255, 0.5)
+}
+
+ .topnav{
+    float: right;
+    margin: -50px 5px;
+    padding-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.user {
+    padding-left: 15px;
 }
