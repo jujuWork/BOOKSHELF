@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    width: 95%;
+}
+
+.logo {
+    display: flex;
+    border: 1px solid black;
+}
