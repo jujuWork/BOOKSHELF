@@ -4,20 +4,25 @@ body {
     width: 95%;
 }
 
-.topContainer {
-    width: 100%;
+a {
+    text-decoration: none;
+}
 
+.topContainer {
+    display: inline-flex;
+    width: 100%;
     border: 1px solid black;
 }
 
-.logo {
-    display: inline-block;
-}
-
-img {
-    vertical-align: middle;
+.title {
+    display: flex;
+    align-items: left;
+    margin: 0;
 }
 
 .topNav {
-    float: right;
+    display: inline-block;
+    margin: auto;
+    margin-right: 0;
+    letter-spacing: 8px;
 }
