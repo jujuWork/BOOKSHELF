@@ -11,7 +11,7 @@ a {
 .topContainer {
     display: inline-flex;
     width: 100%;
-    border: 1px solid black;
+    box-shadow: 1px 1px 4px; 
 }
 
 .title {
@@ -23,6 +23,6 @@ a {
 .topNav {
     display: inline-block;
     margin: auto;
-    margin-right: 0;
-    letter-spacing: 8px;
+    margin-right: 5px;
+    letter-spacing: 5px;
 }
