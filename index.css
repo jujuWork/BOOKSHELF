@@ -8,24 +8,56 @@ a {
     text-decoration: none;
 }
 
-.topContainer {
-    display: inline-flex;
-    width: 100%;
-}
-
-.title {
-    display: flex;
-    align-items: left;
+.nav-list {
     margin: 0;
+    padding: 16px 0;
+    border-radius: 3px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.logoname {
-    padding: 0 12px;
+.nav-item {
+    list-style: none;
+    margin-right: 32px;
 }
 
-.topNav {
+.nav-item a {
+    color: black;
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 32px;
+    list-style: none;
+}
+
+.fi {
+    font-size:  16px;
+    margin-right: 10px;
+}
+
+.span-nav {
+    text-align: center;
+    transition: 0.5s;
+}
+
+.span-nav:hover {
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.fi {
     display: inline-block;
-    margin: auto;
-    margin-right: 5px;
-    letter-spacing: 5px;
+    transition: 0.2s;
+}
+
+.fi:hover {
+    transform: scale(1.5);
+}
+
+nav {
+    border-bottom: 2px solid rgba(0,0,0,0.5);
 }
