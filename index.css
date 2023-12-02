@@ -19,7 +19,7 @@ a {
 
 .nav-item {
     list-style: none;
-    margin-right: 32px;
+    margin-right: 20px;
 }
 
 .nav-item a {
@@ -33,9 +33,16 @@ a {
 }
 
 .fi {
-    font-size:  16px;
+    font-size:  12px;
     margin-right: 10px;
+    display: inline-block;
+    transition: 0.2s;
 }
+
+.fi:hover {
+    transform: scale(1.5);
+}
+
 
 .span-nav {
     text-align: center;
@@ -49,14 +56,11 @@ a {
     border-radius: 8px;
 }
 
-.fi {
-    display: inline-block;
-    transition: 0.2s;
+#search {
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.5);
 }
 
-.fi:hover {
-    transform: scale(1.5);
-}
 
 nav {
     border-bottom: 2px solid rgba(0,0,0,0.5);
