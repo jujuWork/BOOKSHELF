@@ -73,3 +73,9 @@ header {
     height: 350px;
     margin: auto;
 }
+
+.featureslide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
