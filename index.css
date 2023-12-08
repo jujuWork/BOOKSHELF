@@ -76,29 +76,33 @@ header {
     display: flex;
     margin: 5px 0;
     padding: 0.5rem;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(52,73,94);
     border-radius: 10px;
 }
 
 .featured-text button {
     position: relative;
     padding: 0.75rem;
-    margin-top: 10rem;
-    width: 8rem;
-    border-radius: 5px;
+    margin-top: 5rem;
+    margin-bottom: 0.5rem;
+    width: 8.5rem;
+    border-radius: 10px;
     font-size: 1rem;
     transition: 0.5s ease;
+    color: #34495E;
+    background-color: #BDC3C7;
 }
 
 .featured-text button:hover {
+    background-color: #ECF0F1;
+    color: #2C3E50;
     transform: scale(1.1);
 }
 
 .featured-text {
     width: 200px;
-    border: 5px solid white;
+    border: 1px solid white;
     border-radius: 10px;
-    border-style: inset;
     text-align: center;
 }
 
@@ -107,8 +111,7 @@ header {
     position: relative;
     width: 100%;
     margin-left: 10px;
-    border: 5px solid rgba(255, 252, 252, 0.5);
-    border-style: outset;
+    border: 1px solid white;
     border-radius: 10px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.5), 0 -5px 5px rgba(0,0,0,0.5);
 }
