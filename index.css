@@ -143,8 +143,17 @@ header {
     font-size: 1.2rem;
 }
 
-.services {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
+.services td {
+    border: 1px solid black;
+}
+
+.service {
+   width: 100px;
+   height: 100px;
+   display: inline-block;
+}
+
+.service div {
+    width: 100%;
+    display: inline-block;
 }
