@@ -90,8 +90,8 @@ header {
 .featured-text button {
     position: relative;
     padding: 0.75rem;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 0.2rem;
     width: 8.5rem;
     border-radius: 10px;
     font-size: 1rem;
@@ -141,4 +141,10 @@ header {
     bottom: 1rem;
     right: 2rem;
     font-size: 1.2rem;
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
