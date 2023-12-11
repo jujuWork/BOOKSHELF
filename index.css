@@ -146,17 +146,39 @@ header {
 .service {
     display: flex;
     width: 100%;
+    height: 100%;
     justify-content: space-evenly;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 .service div {
-    border: 1px solid black;
-    width: 150px;
+    width: 120px;
+    height: 130px;
     text-align: center;
+    border-radius: 10px;
+    margin: 5px 0 5px 0;
 }
 
 .box1 {
-    background-image: url('');
+    background-color: rgb(255,255,255);
+    display: block;
+    overflow: hidden;
+}
+
+.box1 h4 {
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+}
+
+.box1 .bottomleft {
+    background-color: black;
+    position: relative;
+    height: 50%;
+    margin: 0;
+    border-bottom-left-radius: 30px;
 }
 
 .box2 {
