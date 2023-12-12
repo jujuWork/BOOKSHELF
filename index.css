@@ -161,34 +161,46 @@ header {
     margin: 5px 0 5px 0;
 }
 
-.box1 {
+.box {
     background-color: rgb(255,255,255);
     display: block;
     overflow: hidden;
 }
 
-.box1 h4 {
+.box:first-child {
+    border: 10px solid #000;
+    border-style: inset;
+}
+
+.box:secondchild {
+
+
+
+.box h4 {
     position: absolute;
-    bottom: 100px;
+    bottom: 150px;
     text-align: center;
 }
 
-.box1 .bottomleft {
+/*
+.box .bottomleft {
     background-color: black;
     position: relative;
     height: 50%;
     margin: 0;
-    border-bottom-left-radius: 30px;
+    border-radius: 0;
+    border-bottom-left-radius: 20px;
 }
 
-.box2 {
-    background-color: red;
-}
-
-.box3 {
-    background-color: pink;
-}
-
-.box4 {
-    background-color: aqua;
+.box .bottomright {
+    display: block;
+    background-color: white;
+    position: relative;
+    height: 60px;
+    width: 15px;
+    float: right;
+    margin: 0;
+    border-radius: 0;
+    border-top-right-radius: 20px;
+    box-shadow: 0 -20px 0 0;
 }
