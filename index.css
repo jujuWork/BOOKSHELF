@@ -54,11 +54,12 @@ nav {
 .span-nav {
     text-align: center;
     transition: 0.3s;
+    letter-spacing: 2px;
 }
 
 .span-nav:hover {
-    background-color: rgba(0,0,0,0.7);
-    color: white;
+    background-color: #2C2727;
+    color: #FF7517;
     padding: 6px;
     border-radius: 6px;
 }
@@ -78,18 +79,42 @@ nav {
 
 header {
     width: 100%;
+    display: flex;
 }
 
 .header-P {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 10%;
-    font-size: 2.5rem;
-    color: #19D3DA;
+    font-size: 5rem;
+    color: #FF7517;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-shadow: ;
 }
 
+.header-P button {
+    position: absolute;
+    bottom: -20%;
+    left: 10%;
+    width: 200px;
+    padding: 10px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    border: 1px solid #FF7517;
+    background-color: transparent;
+    color: #EEEEEE;
+}
+
+.header-P button:hover {
+    color: #FF7517;
+    background-color: #3E3939;
+}
+
+
 .bg-image {
-    background-image: url('https://lh3.googleusercontent.com/pw/ABLVV87yE00O5x103Vt74x8d9uTwsSVETRDQNn1FSMVQsv4RGn7qsyjeq6Z0uVibLxLaVRVVIHoTaZYlzMM4XO3nCoJoPGOa1POvVBKHOMXm7758WTGj3RdjkYoc9DQvOTI9mZGk1qqKa-VewdjeihFLrqnlQ8uIqlfm7Lsfw_gY3nRRbkTGhHniwNFjOJWuKWjsym1LPkZor1XxT2u_7Y3VCD0fFk5eBWOQxhSOpHAOh4CKymXCqs70P30Zl1qBr1Z58ft8beS3GpSrWup6BNR68EfP2JWUs7vrbmlEIduBV0btSom9dqM1-1yOm5HCluIXGnRfkMpaaysle6mckII69zWxvd6pruM7eCeM_iqx8hELAnBzxg8kZWIDminx9YXcZ2X8nFANJXc9cdUC1NUkAoeU6KyXXX3SpkD09Cz5ZLybiIRJGx9GD5FLEowUX04jp_Bffx7jGkfU6IIRrkKdBExIjbiBBDelf_g9WOjr8U4bh162xFzUo92a97n-n5wcUnv_gru-t2usxFAsOpl7zpg4o6XHhvcau-YJiv2YO4YMDe1PU3pRouhFvO1UJ485gt3h60CLOTJFqjTOTOg7BE53lMbKm296K0dzWl9sE5pXjo6-oM2hslvfBDofD0lb-nrspNfEFSVL0QWHa3JbsAYHil2acfE2n9qjvRGaCOXwcHWF5dK7P2zEqEXW_YECI5BmuVpXP3fDJYjf5f6_J_jcvqSUt_QXwFxwBSgdPJ2Oj7IwLBImePOzNvnwfS1pqdH8FSsLgXy41YQgubyG-R8g5cQvKnpNBYDcgEntvx2lqJU-Cu-erqGeMQOaWBCIckEX1sa4diLkzFKa96Kp_67WStJGMl_VBI7lf5274yX9GbC8FKreUhxi0Vhl2WBInYx2k2eNOkAmbfnLEkexLuzEVvAIsNYQwM--UinxzJq22REmVK1fMEk-vXWn1nB3qJXcX6KnNiRhJiQnSvnJoGHSk2vcOYi8bfVBRZ8_WprKumLHVJo0Cy8kLYtLnkP8bLLzQg8y_GLdt-C1pgvXye6ZZTdyy5e507SqccB_-ipGxXMh4bz_uQ=w1266-h700-s-no-gm?authuser=5');
+    background-image: url('https://live.staticflickr.com/65535/53401743590_e6ca6b48d0_b.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,95 +123,36 @@ header {
     height: 70vh;
 }
 
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
 
-.featured-month {
-    font-size: 1.1rem;
+.section p {
+    font-size: 2.5rem;
     letter-spacing: 2px;
+    padding: 0;
+    margin: 80px 0 0 0;
+    color: #FF7517;
 }
 
-.featured-text button {
-    position: relative;
-    padding: 0.75rem;
-    margin-top: 3rem;
-    margin-bottom: 0.2rem;
-    width: 8.5rem;
-    border-radius: 10px;
-    font-size: 1rem;
-    transition: 0.5s ease;
-    color: #fff;
-    background-color: #000;
-    letter-spacing: 1.3px;
+.best-seller {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #FF7517;
 }
 
-.featured-text button:hover {
-    background-color: #fff;
-    color: #000;
-    transform: scale(1.1);
-}
-
-.featured-text {
-    width: 200px;
-    border: 1px solid white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.featured {
-    display: flex;
-    position: relative;
+.content {
+    background-color: #3E3939;
     width: 100%;
-    margin-left: 10px;
-    border: 1px solid white;
+    height: 100vh;
+    margin-top: 150px;
     border-radius: 10px;
 }
-
-.featured-image{
-    position: relative;
-    margin: 20px 10px 20px 30px;
-}
-
-.image-summary {
-    margin: auto 0;
-    padding: 5px 10px;
-    font-size: 1.2rem;
-    text-align: center;
-}
-
-.see-more {
-    color: #000;
-    position: absolute;
-    bottom: 1rem;
-    right: 2rem;
-    font-size: 1.2rem;
-}
-
-.service {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    background-color: #373A40;
-    margin: 5px auto;
-    border-radius: 10px;
-}
-
-.service div {
-    width: 120px;
-    height: 130px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 5px 0 5px 0;
-}
-
-.box {
-    border: 1px solid red;
-    background-color: #fff;
-}
-
-.box img {
-    border-radius: 10px;
-}
-
-
 
 
 
