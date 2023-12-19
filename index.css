@@ -170,6 +170,8 @@ article .price {
 }
 
 article .book {
+    width: 100%;
+    text-align: center;
     transition: 0.2s ease-in;
 }
 
@@ -177,7 +179,10 @@ article .book:hover {
     transform: scale(1.1);
 }
 
-
+article .thismonth {
+    border: 1px solid black;
+    position: absolute;
+}
 
 
 
