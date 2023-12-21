@@ -162,6 +162,25 @@ article .container1 {
     justify-content: space-evenly;
 }
 
+article .book {
+    color: #EEEEEE;
+    margin-top: -55px;
+    transition: 0.3s ease;
+}
+
+article img {
+    border-radius: 5px;
+    filter: drop-shadow(8px 12px 10px #000);
+}
+
+article p {
+    text-align: center;
+}
+
+article .book:hover {
+    transform: scale(1.3);
+}
+
 
 article .container2 {
     border: 1px solid red;
