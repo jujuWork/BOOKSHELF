@@ -149,8 +149,9 @@ header {
 article {
     background-color: #3E3939;
     width: 100%;
-    height: 80vh;
+    height: 100%;
     border-radius: 10px;
+    display: inline-block;
 }
 
 article .container1 {
@@ -181,13 +182,36 @@ article .book:hover {
     transform: scale(1.3);
 }
 
-
 article .container2 {
-    border: 1px solid red;
     width: 100%;
-    height: 100px;
-    display: inline-block;
+    height: 100%;
+    text-align: center;
+    color: #FF7517;
+    margin: 100px auto;
+    border: 1px solid red;
 }
+
+
+.container2 .t1 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+
+.container2 .t2 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
 
 article .container3 {
     border: 1px solid red;
