@@ -155,7 +155,6 @@ article {
 }
 
 article .container1 {
-    border: 1px solid red;
     width: 100%;
     height: 100px;
     display: flex;
@@ -187,18 +186,20 @@ article .container2 {
     height: 100%;
     text-align: center;
     color: #FF7517;
-    margin: 100px auto;
-    border: 1px solid red;
+    margin: 200px auto;
 }
 
+.container2 hr {
+    width: 100px;
+    color: #EEEEEE;
+    box-shadow: 3px 5px 10px;
+}
 
 .container2 .t1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
-
-
 
 .container2 .t2 {
     font-size: 3rem;
@@ -206,19 +207,33 @@ article .container2 {
     letter-spacing: 2px;
 }
 
-
-
-
-
-
-
-
 article .container3 {
-    border: 1px solid red;
     width: 100%;
     height: 100px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 250px 0 0 0;
 }
+
+
+
+
+article .container4 {
+    border: 1px solid red;
+}
+
+.container3 img {
+    border-radius: 5px;
+    filter: drop-shadow(4px 6px 5px #FF7517);
+}
+
+
+
+
+
+
+
 
 
 
