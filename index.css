@@ -216,18 +216,42 @@ article .container3 {
     margin: 250px 0 0 0;
 }
 
-
-
-
-article .container4 {
-    border: 1px solid red;
-}
-
 .container3 img {
     border-radius: 5px;
     filter: drop-shadow(4px 6px 5px #FF7517);
 }
 
+article .container4 {
+    margin: 200px 0 0 0;
+    text-align: center;
+    font-size: 5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF7517;
+    font-weight: 800;
+}
+
+.container4 button {
+    width: 180px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #000;
+    color: #EEEEEE;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+}
+
+.container4 button:hover {
+    background-color: #EEEEEE;
+    color: #000;
+}
+
+.container4 hr {
+    width: 100px;
+    color: #EEEEEE;
+    box-shadow: 3px 5px 10px;
+}
 
 
 
