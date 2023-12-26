@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: auto;
     padding: 5px 0;
@@ -77,6 +81,18 @@ nav {
 
 }
 
+@media (max-width: 321px) {
+    .nav-item, .fi {
+        width: 100%;
+        font-size: 0.5rem;
+        margin: auto;
+    }
+
+    #search {
+        display: none;
+    }
+}
+
 header {
     width: 100%;
     display: flex;
@@ -90,7 +106,7 @@ header {
     color: #FF7517;
     letter-spacing: 2px;
     font-weight: 600;
-    text-shadow: ;
+    display: flex;
 }
 
 .header-P button {
@@ -105,6 +121,7 @@ header {
     border: 1px solid #FF7517;
     background-color: transparent;
     color: #EEEEEE;
+    cursor: pointer;
 }
 
 .header-P button:hover {
@@ -112,9 +129,19 @@ header {
     background-color: #3E3939;
 }
 
+@media (max-width: 320px) {
+    .header-P {
+        font-size: 2.3rem;
+    }
+    button {
+        font-size: 0.5rem;
+    }
+}
+
+
 
 .bg-image {
-    background-image: url('https://live.staticflickr.com/65535/53401743590_e6ca6b48d0_b.jpg');
+    background-image: url('https://i.ibb.co/H7FKq0c/background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,6 +192,7 @@ article .container1 {
 article .book {
     color: #EEEEEE;
     margin-top: -55px;
+    cursor: pointer;
     transition: 0.3s ease;
 }
 
