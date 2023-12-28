@@ -283,7 +283,6 @@ article .container4 {
 }
 
  .container5 {
-    border: 1px solid red;
     width: 100%;
     height: 100%;
     margin: 150px 0 0 0;
@@ -316,16 +315,15 @@ article .container4 {
 }
 
 .bookinfo {
-    border: 1px solid blue;
     width: 50%;
     height: 100%;
     padding: 3px;
+    margin: 50px auto;
 }
 
 .booktitle {
     font-size: 1.5rem;
     letter-spacing: 1.5px;
-    margin: 10px auto;
 }
 
 .bookinfoA {
@@ -341,16 +339,30 @@ article .container4 {
     width: 130px;
     border-radius: 5px;
     font-size: 1.1rem;
+    cursor: pointer;
+    color: #FF7517;
 }
 
 
 .bookimage {
-    border: 1px solid orange;
     width: 50%;
     height: 100%;
+    margin: 40px auto;
+    padding: 10px;
+    text-align: center;
+    filter: drop-shadow(5px 7px 8px #000);
 }
 
+footer {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+footer div {
+    border: 1px solid blue;
+}
 
 
 
