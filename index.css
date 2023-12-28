@@ -309,6 +309,8 @@ article .container4 {
 
 .container5 .info {
     display: flex;
+    align-items: left;
+    justify-content: left;
     width: 100%;
     height: 100%;
 }
@@ -317,7 +319,30 @@ article .container4 {
     border: 1px solid blue;
     width: 50%;
     height: 100%;
+    padding: 3px;
 }
+
+.booktitle {
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    margin: 10px auto;
+}
+
+.bookinfoA {
+    font-size: 1.1rem;
+    letter-spacing: 1.1px;
+}
+
+.bookinfoA button {
+    padding: 10px;
+    display: relative;
+    text-align: center;
+    margin: auto 20%;
+    width: 130px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
 
 .bookimage {
     border: 1px solid orange;
