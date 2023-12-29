@@ -358,10 +358,29 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: #EEEEEE;
+    letter-spacing: 1.5px;
 }
 
 footer div {
     border: 1px solid blue;
+    width: 25%;
+    text-align: left;
+    padding: 5px;
+    display: relative;
+}
+
+.foot4 button{
+    padding: 5px;
+    margin: auto;
+    width: 200px;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    border: 1px solid #2C2727;
+}
+
+.foot4 input {
+    
 }
 
 
